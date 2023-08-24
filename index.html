@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Loja Virtual">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lojinha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="#" class="logo">UNISA shop</a>
+            <!-- Cart Icon -->
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">Seu Carrinho</h2>
+                <!-- Content -->
+                <div class="cart-content">
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">R$0</div>
+                </div>
+                <!-- BUY BOTTOM -->
+                <button type="button" class="bnt-buy">Compre Agora</button>
+                <!-- CART CLOSE -->
+                <i class='bx bx-x' id="close-cart" ></i>
+            </div>
+        </div>
+    </header>
+    <!-- SHOP -->
+    <section class="shop container">
+        <h2 class="section-title">Produtos Da Loja</h2>
+        <!-- PRODUTOS -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="produtos-box">
+                <img src="img/loja.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Headset Gamer HyperX</h2>
+                <span class="price">R$ 599.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 2 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/114988/gabinete-gamer-husky-polar-mid-tower-argb-com-fan-porta-em-vidro-temperado-ga-hpo-140_1610453186_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Gabinete Gamer Husky Polar</h2>
+                <span class="price">R$ 531.05</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 3 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/130043/water-cooler-rise-mode-gamer-black-rgb-240mm-preto-rm-wcb-02-rgb_1663776683_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Water Cooler Rise Mode</h2>
+                <span class="price">R$ 269.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 4 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/172413/memoria-kingston-fury-beast-rgb-32gb-2x16gb-3200mhz-ddr4-cl16-preto-kf432c16bb1ak2-32_1662151167_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Memória Kingston Fury Beast</h2>
+                <span class="price">R$ 629.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 5 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/115383/monitor-gamer-husky-snow-23-6-led-curvo-165-hz-full-hd-1ms-adaptive-sync-hdmi-displayport-ajuste-de-angulo-hgmt000_1678989450_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Monitor Gamer Husky Snow</h2>
+                <span class="price">R$ 739.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 6 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/129690/teclado-mecanico-gamer-redragon-kumara-rgb-switch-outemu-red-abnt2-branco-k552w-rgb-pt-red-_1687275189_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Teclado Mecânico Gamer Redragon</h2>
+                <span class="price">R$ 209.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 7 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/128205/mouse-gamer-redragon-cobra-rgb-7-botoes-10000dpi-lunar-white-m711w_1600284702_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Mouse Gamer Redragon Cobra</h2>
+                <span class="price">R$ 89.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+             <!-- BOX 8 -->
+             <div class="produtos-box">
+                <img src="https://images.kabum.com.br/produtos/fotos/92008/92008_5_1526389239_gg.jpg" alt="" class="produtos-img">
+                <h2 class="produtos-title">Cadeira Gamer ThunderX3</h2>
+                <span class="price">R$ 1179.99</span>
+                <i class='bx bx-cart-add add-cart' id="cart-icon"></i>
+            </div>
+
+        </div>
+    </section>
+    <!-- LINK TO JS -->
+    <script src="script.js"></script>
+</body>
+</html>
